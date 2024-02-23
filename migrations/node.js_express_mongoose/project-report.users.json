@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "65b96a27917c0801bf4a190a"
+  },
+  "fullname": "supportmsd",
+  "email": "supportmsd@gmail.com",
+  "password": "$2b$10$zuPygANE5qejNUCJCCuuQuyci7WEhSrU3vnn2ugCgeprp.QuE/4D6",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-01-30T21:29:11.407Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-30T21:29:11.407Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b96bdc917c0801bf4a1915"
+  },
+  "fullname": "adminmsd",
+  "email": "adminmsd@gmail.com",
+  "password": "$2b$10$oSF8KYpHCY9At.cy4AtpnusFRp9osV9HMM68rF0ALCIgm50V9jjbu",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2024-01-30T21:36:28.088Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-30T21:57:23.397Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c05ecd049f5738559149fd"
+  },
+  "fullname": "developermsd1",
+  "email": "developermsdw@gmail.com",
+  "password": "$2b$10$a7YFr.poTGfcQ8PSjpz64uz5dH6hw/KEEvfyVgH5.KMGaJanLFDsS",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-02-05T04:06:37.229Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-05T04:06:37.229Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c05eda049f573855914a01"
+  },
+  "fullname": "developermsd2",
+  "email": "developermsd2@gmail.com",
+  "password": "$2b$10$q2IPTFLxFXIEXf6INtztEOO5CdUNxuEj1AR9kdqIkFD3QBh.1wqoq",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-02-05T04:06:50.508Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-05T04:06:50.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65c05ee1049f573855914a04"
+  },
+  "fullname": "developermsd3",
+  "email": "developermsd3@gmail.com",
+  "password": "$2b$10$51q3zvsPHdnx6bWcq4K0FeDrA1NsMQQMIO/8NfHDr84Of8wP6.qYG",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-02-05T04:06:57.127Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-05T04:06:57.127Z"
+  },
+  "__v": 0
+}]

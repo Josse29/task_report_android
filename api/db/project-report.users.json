@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "65b2c6c5c00da17871ff59c0"
+  },
+  "fullname": "Josse Surya Pinem",
+  "email": "admin@gmail.com",
+  "password": "$2b$10$cI0irVlzpAmp.qOdANkiTeou2aDzh24IP9ltARMntu9YIp0HikiSm",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "createdAt": {
+    "$date": "2024-01-25T20:38:29.829Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-25T20:38:29.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65b2c6dfc00da17871ff59c4"
+  },
+  "fullname": "tondi",
+  "email": "tondi@gmail.com",
+  "password": "$2b$10$bcckMQCN5cnl6tlgu5QtueUIcdCQdKWDPiVvkXEXajgBKyLbcwfaK",
+  "profilePicture": "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg",
+  "createdAt": {
+    "$date": "2024-01-25T20:38:55.494Z"
+  },
+  "updatedAt": {
+    "$date": "2024-01-25T20:38:55.494Z"
+  },
+  "__v": 0
+}]

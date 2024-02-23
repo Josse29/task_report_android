@@ -1,0 +1,43 @@
+### create rs 
+POST http://localhost:8000/api/unitrs/create-unitrssfdsf/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+
+{
+    "nama":"rs-7",
+    "kode":"RS3",
+    "alamat":"medan"
+}
+### read  
+GET http://localhost:8000/api/unitrs/read-unitrs/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### read ID 
+GET http://localhost:8000/api/unitrs/read-unitrs-by-id/65cedf003c04947dd33b76e7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### read ID taskdone 
+GET http://localhost:8000/api/unitrs/read-unitrs-by-id-task-done/65cedf003c04947dd33b76e7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### read ID task process
+GET http://localhost:8000/api/unitrs/read-unitrs-by-id-task-process/65cedf003c04947dd33b76e7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### update unitrs
+PUT http://localhost:8000/api/unitrs/update-unitrs/65b983b43f10218607267a3b
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+
+{
+    "nama":"rs vina estetica updated last forever"
+}
+### delete unitrs id
+DELETE http://localhost:8000/api/unitrs/delete-unitrs/65cdd4f1a090147b9c0d1b45
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+
+### delete-all-unitrs
+DELETE http://localhost:8000/api/unitrs/delete-all-unitrs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json

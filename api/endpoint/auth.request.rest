@@ -1,0 +1,42 @@
+### get all users
+GET http://localhost:8000/api/auth/get-all-user
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### get id users
+GET http://localhost:8000/api/auth/get-user-id/65c05eda049f573855914a01
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### register
+POST http://localhost:8000/api/auth/register
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTI3OTN9.wQP0ZMHBWwGK44YIQDFfG5JpZL7v4HjOfAsMdVzSoUQ
+Content-Type: application/json
+
+{
+    "fullname":"developermsd3",
+    "email":"developermsd3@gmail.com",
+    "password":"developermsd3",
+    "isAdmin":false
+}
+### login
+POST  http://localhost:8000/api/auth/login
+Content-Type: application/json
+
+{
+    "email":"adminmsd@gmail.com",
+    "password":"adminmsd"
+}
+### delete all user
+DELETE http://localhost:8000/api/auth/delete-all-user
+
+### update user as admin 
+PUT http://localhost:8000/api/auth/update-user-admin/65b976a94b9a1c14e6d3383d
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTI3OTN9.wQP0ZMHBWwGK44YIQDFfG5JpZL7v4HjOfAsMdVzSoUQ
+
+{
+    "isAdmin": true
+}
+### delete user by id 
+DELETE http://localhost:8000/api/auth/delete-user-by-id/65b976a94b9a1c14e6d3383d
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTI3OTN9.wQP0ZMHBWwGK44YIQDFfG5JpZL7v4HjOfAsMdVzSoUQ

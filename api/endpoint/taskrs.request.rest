@@ -1,0 +1,69 @@
+### Get ALL-Task
+GET http://localhost:8000/api/taskrs/get-task
+### Get Task-Id
+GET http://localhost:8000/api/taskrs/get-task-id/65c9b18e9c80bc8fb589e2da
+### Get Task-supportId
+GET http://localhost:8000/api/taskrs/get-task-idsupport?idsupport=65c05eda049f573855914a01
+### Get Task-done-support
+GET http://localhost:8000/api/taskrs/get-task-done-idsupport?idsupport=65b96a27917c0801bf4a190a
+### Get Task-done-idunitrs
+GET http://localhost:8000/api/taskrs/get-task-done-idunitrs?idunitrs=65cedf003c04947dd33b76e7
+### Get Task-process-support
+GET http://localhost:8000/api/taskrs/get-task-process-idsupport?idsupport=65b96a27917c0801bf4a190a 
+### Get Task-process-idunitrs
+GET http://localhost:8000/api/taskrs/get-task-process-idunitrs?idunitrs=65cedf003c04947dd33b76e7
+### Get Task-done
+GET http://localhost:8000/api/taskrs/get-task-done
+### Get task-process
+GET http://localhost:8000/api/taskrs/get-task-process
+### CREATE TASK AND PUSH TO UNITRS
+PUT http://localhost:8000/api/taskrs/create-task/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json 
+
+{
+    "idpengaju":"65b96bdc917c0801bf4a1915",
+    "idunitrs":"65cdd4f1a090147b9c0d1b45",
+    "nomorwa":"08123132121",
+    "judulTask":"task-1",
+    "idsupport":"65c05ecd049f5738559149fd",
+    "deskripsimasalah":"error mulu",    
+    "pesan":"mohon selesaikan segera"
+}
+### REPLY COMMENT
+PUT http://localhost:8000/api/taskrs/reply-comment/65ccb7d148436bc348f33a68
+
+{
+    "idpengaju":"65c05ecd049f5738559149fd",
+    "pesan":"sudah saya selesaikan dengan baik"
+}
+### CREATE ALREADY TASK DONE
+PUT http://localhost:8000/api/taskrs/create-task-already-done/65ccb7d148436bc348f33a68
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json 
+
+{
+    "idunitrs":"65ccb3a53b8bfb8cb65dadfb",
+    "idpengaju":"65b96bdc917c0801bf4a1915",
+    "pesan":"terimakasih telah menyelesaikan tugas dengan baik"
+}
+### EDIT TASKRS
+PUT http://localhost:8000/api/taskrs/edit-task/65c8fe6606aecaa32d919b97
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json 
+
+{
+    "judulTask":"tolong bantu duwa updated",
+}
+### DElETE THE ALL TASK 
+PUT http://localhost:8000/api/taskrs/delete-all-task
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+### DELETE THE TASK ID 
+PUT http://localhost:8000/api/taskrs/delete-id-task/65c2eb3cff0063fa0389cab3
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Yjk2YmRjOTE3YzA4MDFiZjRhMTkxNSIsImZ1bGxuYW1lIjoiYWRtaW5tc2QiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE3MDY2NTU3MDZ9.qyAH1G0xDAxUutKBDENw_vizqpw7ILNlVwL1NdzJ4x8
+Content-Type: application/json
+
+{
+    "idunitrs":"65b985422dfffd4009de0280"
+}
